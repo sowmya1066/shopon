@@ -32,7 +32,7 @@ body {
   height: 4rem;
   object-fit: contain;
   border-radius: 50%;
-  border: 2px solid #ffc404;
+  border: 2px solid beige;
 }
 
 #main-header button {
