@@ -9,7 +9,7 @@ body {
   font-family: "Raleway", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background: #273907;
+  background: whitesmoke;
   color: #d9e2f1;
   min-height: 100vh;
 }
@@ -25,14 +25,12 @@ body {
   display: flex;
   gap: 1rem;
   align-items: center;
+  color: #2a86ff;
 }
 
 #main-header #title img {
   width: 4rem;
   height: 4rem;
-  object-fit: contain;
-  border-radius: 50%;
-  border: 2px solid beige;
 }
 
 #main-header button {
@@ -62,7 +60,7 @@ h1 {
 }
 
 .meal-item {
-  background-color: #1e481a;
+  background-color: #2a86ff;
   border-radius: 1rem;
   overflow: hidden;
   text-align: center;
@@ -78,7 +76,7 @@ h1 {
 
 .meal-item img {
   width: 100%;
-  height: 20rem;
+  height: 15rem;
   object-fit: cover;
 }
 
@@ -226,12 +224,12 @@ h1 {
   cursor: pointer;
   background-color: transparent;
   border: none;
-  color: #ffc404;
+  color: Black;
 }
 
 .text-button:hover,
 .text-button:active {
-  color: #ffab04;
+  color: #2a86ff;
 }
 
 .modal {

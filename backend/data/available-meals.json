@@ -1,9 +1,9 @@
 [
   {
     "id": "m1",
-    "name": "Burrito",
-    "price": "600",
     "description": "Creamy cheddar cheese mixed with perfectly cooked macaroni, topped with crispy breadcrumbs. A classic comfort food.",
+    "price": "600",
+
     "image": "images/2.png"
   },
   {
