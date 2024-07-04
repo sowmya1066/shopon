@@ -61,7 +61,7 @@ h1 {
 
 .meal-item {
   background-color: #2a86ff;
-  border-radius: 1rem;
+  border-radius: 0.5rem;
   overflow: hidden;
   text-align: center;
   box-shadow: 0 1px 6px rgba(0, 0, 0, 0.3);
@@ -92,8 +92,8 @@ h1 {
 
 .meal-item-price {
   display: inline-block;
-  background-color: #312c1d;
-  color: #ffc404;
+  background-color: rgba(0, 0, 255, 0.386);
+  color: black;
   font-size: 0.9rem;
   font-weight: bold;
   padding: 0.5rem 2rem;
@@ -127,7 +127,7 @@ h1 {
 
 .modal-actions .text-button:hover,
 .modal-actions .text-button:active {
-  color: #312c1d;
+  color: black;
 }
 
 .cart-total {
@@ -136,7 +136,7 @@ h1 {
   margin: 2rem 0;
   font-size: 1.15rem;
   font-weight: bold;
-  color: #46443c;
+  color: black;
 }
 
 .cart-item {
@@ -163,8 +163,8 @@ h1 {
   height: 1.5rem;
   border-radius: 50%;
   border: none;
-  background-color: #312c1d;
-  color: #ffc404;
+  background-color: #2a86ff;
+  color: whitesmoke;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -172,8 +172,8 @@ h1 {
 
 .cart-item-actions button:hover,
 .cart-item-actions button:active {
-  background-color: #1d1a16;
-  color: #ffab04;
+  background-color: #2a86ff;
+  color: whitesmoke;
 }
 
 .control {
@@ -205,8 +205,8 @@ h1 {
 .button {
   font: inherit;
   cursor: pointer;
-  background-color: #baed83;
-  border: 1px solid #b1f36b;
+  background-color: whitesmoke;
+  border: 1px solid white;
   color: #1f1a09;
   padding: 0.5rem 1.5rem;
   border-radius: 4px;
@@ -214,8 +214,8 @@ h1 {
 
 .button:hover,
 .button:active {
-  background-color: #baed83;
-  border-color: #b4f273;
+  background-color: #2a86ff;
+  border-color: whitesmoke;
   color: #1f1a09;
 }
 
