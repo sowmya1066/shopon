@@ -12,16 +12,12 @@ export default function Meals() {
   } = useHttp("http://localhost:3000/meals", requestConfig, []);
 
   if (isLoading) {
-    return <p className="center">Fetching meals...</p>;
+    return <p className="center">Fetching data...</p>;
   }
 
   if (error) {
-    return <Error title="Failed to fetch meals" message={error} />;
+    return <Error title="Failed to fetch data" message={error} />;
   }
-
-  // if (!data) {
-  //   return <p>No meals found.</p>
-  // }
 
   return (
     <ul id="meals">
